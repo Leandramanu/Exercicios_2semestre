@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+
+    int cpeca1, np1;
+    int cpeca2, np2;
+    double vp1, vp2, total1, total2, total;
+
+    scanf("%d %d %lf", &cpeca1, &np1, &vp1);
+    scanf("%d %d %lf", &cpeca2, &np2, &vp2);
+
+    total1 = np1 * vp1;
+    total2 = np2 * vp2;
+    total = total1 + total2;
+
+    printf("VALOR A PARAR: R$ %.2lf", total);
+    return 0;
+}
